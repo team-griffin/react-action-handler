@@ -8,7 +8,7 @@ We got kind of fed up of rewriting a component or container which needed an even
 
 ## Usage
 
-```
+```javascript
 // MyComponent
 import actionHandler from '@team-griffin/react-action-handler';
 
@@ -41,7 +41,7 @@ const MyParent = (props) => {
 Action handler automatically maps the handler names to event names. This is to ensure best practices.
 
 Example:
-```
+```javascript
 handleClick -> onClick
 handleMouseUp -> onMouseUp
 ```
