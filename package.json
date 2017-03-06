@@ -1,7 +1,8 @@
 {
   "name": "@team-griffin/action-handler",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "main": "lib/index.js",
+  "jsnext:main": "lib/index.js",
   "repository": "ssh://git@stash.heg.com:7999/peg/action-handler.git",
   "author": "Joshua Thornton <joshua.thornton@heg.com>",
   "license": "MIT",
