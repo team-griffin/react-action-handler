@@ -1,0 +1,7 @@
+FROM team-griffin/react-action-handler_base
+
+ADD . /src
+
+RUN yarn install
+
+# docker build -f docker/Dockerfile.ci -t team-griffin/react-action-handler_ci .
