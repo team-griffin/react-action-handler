@@ -1,9 +1,9 @@
 {
-  "name": "@team-griffin/action-handler",
-  "version": "0.2.5",
+  "name": "@team-griffin/react-action-handler",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "jsnext:main": "lib/index.js",
-  "repository": "ssh://git@stash.heg.com:7999/peg/action-handler.git",
+  "repository": "git@github.com:team-griffin/react-action-handler.git",
   "author": "Joshua Thornton <joshua.thornton@heg.com>",
   "license": "MIT",
   "scripts": {
