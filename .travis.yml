@@ -3,9 +3,6 @@ sudo: required
 services:
   - docker
 
-before_install:
-  - docker build -f docker/Dockerfile.base -t team-griffin/react-action-handler_base .
-
 install:
   - docker build -f docker/Dockerfile.ci -t team-griffin/react-action-handler_ci .
 
